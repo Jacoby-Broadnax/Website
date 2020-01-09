@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1817" height="970" viewBox="0 0 1817 970">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.813" y1="0.914" x2="0.165" y2="0.156" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#206cff"/>
+      <stop offset="1" stop-color="#364aff"/>
+    </linearGradient>
+    <clipPath id="clip-Blue_Acrylic">
+      <rect width="1817" height="970"/>
+    </clipPath>
+  </defs>
+  <g id="Blue_Acrylic" data-name="Blue Acrylic" clip-path="url(#clip-Blue_Acrylic)">
+    <rect width="1817" height="970" fill="#fff"/>
+    <rect id="Rectangle_346" data-name="Rectangle 346" width="1817" height="970" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_347" data-name="Rectangle 347" width="1817" height="970" fill="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1817" height="970" viewBox="0 0 1817 970">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.813" y1="0.914" x2="0.165" y2="0.156" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff2020"/>
+      <stop offset="1" stop-color="#ff369a"/>
+    </linearGradient>
+    <clipPath id="clip-Pink_Acrylic">
+      <rect width="1817" height="970"/>
+    </clipPath>
+  </defs>
+  <g id="Pink_Acrylic" data-name="Pink Acrylic" clip-path="url(#clip-Pink_Acrylic)">
+    <rect width="1817" height="970" fill="#fff"/>
+    <rect id="Rectangle_348" data-name="Rectangle 348" width="1817" height="969" transform="translate(0 1)" fill="url(#linear-gradient)"/>
+    <rect id="Rectangle_349" data-name="Rectangle 349" width="1817" height="969" transform="translate(0 1)" fill="#fff"/>
+  </g>
+</svg>
