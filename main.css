@@ -22,6 +22,8 @@ button:hover {cursor: pointer;}
 
 .active > a > button {font-weight: bold;}
 
+.flickity-viewport {height: 100vh;;}
+
 /*--------------------------------------Loader-------------------------------------*/
 
 .loader {position: fixed;width: 100%; height: 100vh; background-image:url('Assets/Blue Acrylic.png');z-index: 500;}
