@@ -100,6 +100,31 @@ var flkty = new Flickity( '.main-carousel', {
     </script>
 </div>
 
+<div class="section">
+    <section class="portfolio flipped">
+        <h1>Portfolio</h1>
+        <div class="h3-manifest" aria-multiline="hm3-dataset">
+            <button onclick="document.getElementById('active').innerHTML = 'testdata'; console.log('success')"></button>
+        </div>
+        <div class="main-carousel">
+            <div class="carousel-cell is-selected" ><img alt="GHS App Image With Text. The GHS App was developed for Gulfport High School to provide a more accessible and faster alternative to the Gulfport Schools website. It quickly evolved into something more all encompassing after adding many new features like, GHS App stories, Workforce Development, and the always changing content feed." src="/Images/ghsappwithtext.svg"></div>
+            <div  class="carousel-cell jz"><img alt="JZ 94.5 With Text. The GHS App was developed for Gulfport High School to provide a more accessible and faster alternative to the Gulfport Schools website. It quickly evolved into something more all encompassing after adding many new features like, GHS App stories, Workforce Development, and the always changing content feed." src="/Images/jz945.svg"></div>
+
+          </div>
+    </section>
+    <script>
+  var elem = document.querySelector('.main-carousel');
+var flkty = new Flickity( elem, {
+
+  cellAlign: 'left',
+  contain: true
+});
+
+var flkty = new Flickity( '.main-carousel', {
+});
+    </script>
+</div>
+
 
 <div class="section">
     <section class="contact">
