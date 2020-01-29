@@ -15,9 +15,10 @@
     <meta name="theme-color" content="#7192FF">
     <meta name = "keywords" content = "Jacoby Broadnax, Web development, Broadnax, jacoby broadnax.com, jacobybroadnax.dev, jacobybroadnax.com" />
     <meta name = "description" content = "My names Jacoby Broadnax, and i'm a web developer. You'll find my contact information and portfolio here." />
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <link rel="stylesheet" href="/vivify.min.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.css" />
+
  <link rel="shortcut icon" href="/Branding/logo.ico">
 <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 
@@ -33,7 +34,7 @@
             <img class="logo"  alt="Jacoby Broadnax Logo" src="/Branding/White Logo.svg" data-aos="fade-up" data-aos-delay="1000">
             <ul id="navigation"data-aos="fade-up" data-aos-delay="1200">
                 <li data-menuanchor="home" class="vivify fadeIn delay-1500" >
-                    <a href="#home">
+                    <a href="#">
                         <button class="nav-button" title="Home">HOME</button>
                     </a>
                 </li>              
@@ -75,42 +76,20 @@
     </section>
 </div>
 
-<div class="section">
-    <section class="portfolio">
-        <h1>Portfolio</h1>
-        <div class="h3-manifest" aria-multiline="hm3-dataset">
-            <button onclick="document.getElementById('active').innerHTML = 'testdata'; console.log('success')"></button>
-        </div>
-        <div class="main-carousel">
-            <div class="carousel-cell is-selected" ><img alt="GHS App Image With Text. The GHS App was developed for Gulfport High School to provide a more accessible and faster alternative to the Gulfport Schools website. It quickly evolved into something more all encompassing after adding many new features like, GHS App stories, Workforce Development, and the always changing content feed." src="/Images/ghsappwithtext.svg"></div>
-            <div  class="carousel-cell jz"><img alt="JZ 94.5 With Text. The GHS App was developed for Gulfport High School to provide a more accessible and faster alternative to the Gulfport Schools website. It quickly evolved into something more all encompassing after adding many new features like, GHS App stories, Workforce Development, and the always changing content feed." src="/Images/jz945.svg"></div>
 
-          </div>
-    </section>
-    <script>
-  var elem = document.querySelector('.main-carousel');
-var flkty = new Flickity( elem, {
 
-  cellAlign: 'left',
-  contain: true
-});
 
-var flkty = new Flickity( '.main-carousel', {
-});
-    </script>
-</div>
-
-<div class="section">
     <section class="portfolio flipped">
         <h1>Portfolio</h1>
-        <div class="h3-manifest" aria-multiline="hm3-dataset">
-            <button onclick="document.getElementById('active').innerHTML = 'testdata'; console.log('success')"></button>
+     
+        <div class="left-group exc-group" >
+            <img data-aos="fade-right" data-aos-delay="300" src="/Images/ghsapp.svg" alt="Picture of GHS App (Gulfport High School App)">
+            <div class="left-mobile-text-group">
+<h3 data-aos="fade-up" data-aos-delay="400">GHS App</h3>
+<h4 data-aos="fade-up" data-aos-delay="400">2018 - Now</h4>
+<p data-aos="fade-up" data-aos-delay="400">The GHS App was developed for Gulfport High School to provide a more accessible and faster alternative to the Gulfport Schools website. It quickly evolved into something more all encompassing after adding many new features like, GHS App stories, Workforce Development, and the always changing content feed.</p>
+            </div>
         </div>
-        <div class="main-carousel">
-            <div class="carousel-cell is-selected" ><img alt="GHS App Image With Text. The GHS App was developed for Gulfport High School to provide a more accessible and faster alternative to the Gulfport Schools website. It quickly evolved into something more all encompassing after adding many new features like, GHS App stories, Workforce Development, and the always changing content feed." src="/Images/ghsappwithtext.svg"></div>
-            <div  class="carousel-cell jz"><img alt="JZ 94.5 With Text. The GHS App was developed for Gulfport High School to provide a more accessible and faster alternative to the Gulfport Schools website. It quickly evolved into something more all encompassing after adding many new features like, GHS App stories, Workforce Development, and the always changing content feed." src="/Images/jz945.svg"></div>
-
-          </div>
     </section>
     <script>
   var elem = document.querySelector('.main-carousel');
